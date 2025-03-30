@@ -12,23 +12,22 @@
     <header>
         <div class="container"> <!--HTML 구조의 핵심인 container 클래스가 포함된 div 태그-->
             <h1>
-                <button>KimHoeil</button>
+                <button data-animation-scroll="true" data-target="#main">KimHoeil</button>
             </h1>
             <nav>
                 <ul>
-                    <!-- 구조 동일, button 태그의 텍스트(Features, Portfolio, Contact)만 변경 -->
-                     <li>
-                        <button>About</button>
-                     </li>
-                     <li>
-                        <button>Features</button>
-                     </li>
-                     <li>
-                        <button>Portfolio</button>
-                     </li>
-                     <li>
-                        <button>Contact</button>
-                     </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#about">About</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#features">Features</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#portfolio">Portfolio</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#contact">Contact</button>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -39,7 +38,7 @@
      <main id="main">
         <div class="container">
             <h4>Welcome</h4>
-            <h2>I'M A <span>Front-End Developer</span></h2>
+            <h2>I'M A <span></span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor quas nulla unde ea officiis?</p>
             <button class="download">DOWNLOAD CV</button>
             <button class="mouse"><i class="fa-solid fa-computer-mouse"></i></button>
@@ -66,10 +65,10 @@
                     <div class="social">
                         <!-- 반복, fa-brands fa-instagram, fa-brands fa-twitch, fa-brands fa-youtube -->
                          <a href="#">
-                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-github"></i>
                          </a>
                          <a href="#">
-                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
                          </a>
                          <a href="#">
                             <i class="fa-brands fa-twitch"></i>
@@ -253,6 +252,6 @@
         </div>
     </section>
         
-        
-    </body>
-    </html>
+<script src="script.js"></script>    
+</body>
+</html>
