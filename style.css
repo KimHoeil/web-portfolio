@@ -222,6 +222,7 @@ section .do-me .do-inner{
     padding: 2rem;
     float: left;
     margin-right: 5%;
+    margin-bottom: 5%;
     cursor: pointer;
 }
 /* 마지막 사각형의 외부 여백 설정 */
